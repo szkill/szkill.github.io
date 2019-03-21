@@ -653,7 +653,45 @@ margin-right: 30%
  }
 
 
- 
+ #leftfilter{
+  padding-right: 0px;
+  padding-left: 0px;
+ }
 
+ #leftfilterpadding{
+  padding-right: 0px;
+  padding-left: 30px;
+ }
+
+ .navbar#leftfilterpadding{
+   padding-top: 0px;
+  margin-bottom: 20px;
+ }
+
+ .selectiontitle{
+  color: #2a2a2a;
+  padding: 30px 0 10px;
+  font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.1em;
+  font-weight: 700;
+ }
+ p.selectiontitle{
+  margin-right: 5px;
+ }
+
+ .selectionblock {
+  padding: 1px 0 0;
 }
+
+
+ #priceformcontrol{
+  width: 100px;
+  padding-left: 5px;
+  margin-left: 5px;
+ }
+
+ #imgactive{
+  border: 3px solid #00a8e1;
+ }
 
