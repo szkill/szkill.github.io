@@ -57,7 +57,7 @@ fieldset#body {
     float:left;
     padding:0;
     border:0;
-    *margin:-3px 9px 0 0; /* IE7 Fix */
+   
 }
 #body label {
     color:#000;
@@ -635,7 +635,7 @@ label {
 	background:#00405d;
 }
 .form-group {
-		margin-left: 10%;
+ margin-left: 0%;
 }
 .edit1 {
 margin-left: 25%
