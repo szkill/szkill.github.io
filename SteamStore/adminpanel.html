@@ -2,99 +2,39 @@
 <html lang="en">
 
 <head>
-  <title>SteamStore</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
- 
-	<link href="css/style.css" rel='stylesheet' type='text/css'/>
+  <title>Админ панель</title>
 	
-  <style>
-    /* Remove the navbar's default rounded borders and increase the bottom margin */
-    .navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
-    }
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    /* Remove the jumbotron's default bottom margin */
-    .jumbotron {
-      background: url(https://i.giphy.com/media/xUOwG4onOFOY5ACDks/giphy.webp);
-      margin-bottom: 0;
-    }
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
 
-
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
+<style>
+  body {
+	background: url(http://cristinarosu.com/wp-content/uploads/2018/04/kraski-tekstura-fon-cveta.jpg)  ;	
+	}
+</style>
 </head>
-
 <body>
 
-  <div class="jumbotron">
-    <div class="container text-center">
-      <h1>Steam Online Store</h1>
-      <p>Mission, Vission & Values</p>
-    </div>
+ <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Выбирите действие
+  </button>  
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item active" href="adminpanel.html">Просмотр списка товаров</a>
+	<a class="dropdown-item" href="#">Добавить товар</a>    
+    <a class="dropdown-item" href="edit.html">Редактировать товар</a>
   </div>
-
-
-
-
-  <!--bg-dark navbar-dark-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">
-      <img src="https://apollo-frankfurt.akamaized.net/v1/files/ds9qr67iexep-KZ/image;s=261x203" alt="logo"
-        style="width:40px;">
-    </a>
-
-    <!-- Left -->
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Products</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Deals</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Stores</a>
-      </li>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-    </ul>
-
-    <!-- Right -->
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="register.html"><span class="fab fa-accessible-icon fa-lg"></span> Your
-          Account</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><span class="fa fa-shopping-cart fa-lg"></span> Cart</a>
-      </li>
-	   <li class="nav-item">
-        <a class="nav-link" href="adminlogin.html"><span class="fa fa-wrench  fa-lg"></span> Admin</a>
-      </li>
-    </ul>
-  </nav>
-
+</div>
 
   <div class="container">
     <div class="row">
@@ -118,8 +58,7 @@
           <div class="card-body">
             <h4 class="card-title">AWP | Азимов</h4>
             <p class="card-text">Износ: После полевых испытаний</p>
-            <a href="#" class="btn btn-primary stretched-link">Подробнее</a>
-          </div>
+			</div>
         </div>
       </div>
       <div class="col-sm-4 d-flex">
@@ -177,36 +116,11 @@
   </div><br>
 
 
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
 
-  <footer class="container-fluid text-center">
-    <div class="container">
-
-      <div class="col-md-14 our-st text-center ">
-        <div class="clearfix "> </div>
-        <li><i class="add"> </i>Санкт-Петербург, ЛЭТИ</li>
-        <li><i class="phone"> </i>+7 (904) 555-18-96</li>
-        <li><a href="mailto:info@example.com"><i class="mail"> </i>steam-shop@mail.ru</a></li>
-
-      </div>
-
-    </div>
-  </footer>
-
-  <!--  
-  <footer class="container-fluid text-center">
-    <div class="container">
-      <div class="col-md-14 our-st text-center ">
-        <p>Steam Online Store Copyright</p>
-      </div>
-    </div>
-  </footer>
-  -->
-
-  <!--  
-    <footer class="container-fluid text-center">
-    <p>Online Store Copyright</p>
-  </footer>
-  -->
 
 </body>
 
