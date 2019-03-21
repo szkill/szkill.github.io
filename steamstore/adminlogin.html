@@ -3,12 +3,26 @@
 
 <head>
 	<title>Регистрация</title>
-	
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+	<script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
+
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="js/megamenu.js"></script>
+
+
+
+
+
+
+	<title>Bootstrap Example</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -38,8 +52,7 @@
 			background-color: #f2f2f2;
 			padding: 25px;
 		}
-		
-	</style>	
+	</style>
 
 </head>
 
@@ -96,7 +109,7 @@
 		<div class="main">
 
 			<div class="registration">
-				<div class="reg">
+				<div class="registration_left">
 					<h2>Новый пользователь? <span> Создай аккаунт </span></h2>
 
 					<div class="registration_form">
@@ -117,8 +130,8 @@
 									<input placeholder="Почта:" type="email" tabindex="3" required>
 								</label>
 							</div>
-							<div class="gender-form">
-								<div class="gender_form1">
+							<div class="sky-form">
+								<div class="sky_form1">
 									<ul>
 										<li><label class="radio left"><input type="radio" name="radio"
 													checked=""><i></i>М</label></li>
@@ -145,10 +158,11 @@
 
 					</div>
 				</div>
-				<div class="log">
+				<div class="registration_left">
 					<h2>Уже есть аккаунт</h2>
 					<div class="registration_form">
-						<form id="registration_form" >
+
+						<form id="registration_form" action="contact.php" method="post">
 							<div>
 								<label>
 									<input placeholder="Почта:" type="email" tabindex="3" required>
@@ -162,18 +176,9 @@
 							<div>
 								<input type="submit" value="Вход" id="register-submit">
 							</div>
-							<div class="form-group">
-								<div class="checkbox">
-                             <label>
-							 <input type="checkbox" value="remember-me">
-							     Запомнить пароль
-							 </label>
-								</div>
-							</div>
 							<div class="forget">
 								<a href="#">Забыли пароль?</a>
 							</div>
-							
 						</form>
 
 					</div>
