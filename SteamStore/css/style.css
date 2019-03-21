@@ -15,7 +15,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 
-/********** Login *************/
+
 #loginContainer {
     position:relative;
 }
@@ -25,14 +25,14 @@ body a{
   border: 1px solid #555;
   font-weight: 300;
 }
-/* Login Button */
+
 #loginButton { 
     display:inline-block;  
     position:relative;
     z-index:30;
     cursor:pointer;
 }
-/* Login Box */
+
 #loginBox {
     position:absolute;
 	top: 44px;
@@ -49,7 +49,7 @@ body a{
 	border-right:10px solid rgba(0, 0, 0, 0);
 	border-bottom: 10px solid #f0f0f0;
 }
-/* Login Form */
+
 #loginForm {
    width: 300px;
 	background: #fff;
@@ -94,7 +94,7 @@ fieldset#body {
 	font-size:1em;
 	font-style:normal;
 }
-/* Default Input */
+
 #loginForm input {
     width:92%;
     border:1px solid #DADADA;
@@ -105,7 +105,7 @@ fieldset#body {
     -webkit-apperance:none;
     font-family: 'Open Sans', sans-serif;
 }
-/* Sign In Button */
+
 #loginForm #login {
 	font-family: 'Open Sans', sans-serif;
 	width: auto;
@@ -434,7 +434,6 @@ list-style: none;
 }
 
 
-/* radios and checkboxes */
 .gender-form .radio,.gender-form .checkbox {
 	outline:none;
 	border:none;
