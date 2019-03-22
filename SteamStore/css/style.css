@@ -286,6 +286,10 @@ i.goog:hover{
 .footer {
   padding: 3em 0;
 }
+footer{  
+  margin-top: 30px;
+}
+
 i.phone {
   width: 19px;
   height: 21px;
